@@ -14,5 +14,17 @@ class StockVendor
   def stock
     {"1" => 5}
   end
+
+  def has_item?(id)
+    @stocks[id][:count] > 0
+  end
+
+  def has_amount?(id)
+    price(id) < @amount
+  end
+
+  def price(id)
+    @stocks[id][:price]
+  end
 end
 

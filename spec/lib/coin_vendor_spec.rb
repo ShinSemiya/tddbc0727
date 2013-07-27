@@ -80,4 +80,13 @@ describe CoinVendor do
       end
     end
   end
+
+  describe '#has_amount' do
+    it 'return true' do
+      coin_vendor = CoinVendor.new
+      coin_vendor.accept(500)
+
+      coin_vendor.has_amount?('コーラ').should be_true
+    end
+  end
 end

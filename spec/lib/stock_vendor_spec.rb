@@ -12,5 +12,16 @@ describe StockVendor do
       cola[:count].should == 5
     end
   end
+
+  describe '#has_item?' do
+    context 'cola' do
+      it 'return true' do
+        stock_vendor = StockVendor.new
+        stock_vendor.has_item('コーラ').should be_true
+
+      end
+    end
+
+  end
 end
 
