@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 
-class VendingMachine
+class CoinVendor
   attr_reader :amount
 
   def initialize
