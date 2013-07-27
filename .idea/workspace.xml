@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17886a12-8746-4326-9c47-8405767a493a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/coin_vendor.rb" afterPath="$PROJECT_DIR$/lib/coin_vendor.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/lib/coin_vendor_spec.rb" afterPath="$PROJECT_DIR$/spec/lib/coin_vendor_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/stock_vendor.rb" afterPath="$PROJECT_DIR$/lib/stock_vendor.rb" />
     </list>
     <ignored path="ruby_rspec.iws" />
@@ -65,7 +63,7 @@
       <file leaf-file-name="stock_vendor.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/stock_vendor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="2" selection-start="67" selection-end="67" vertical-scroll-proportion="0.1369863">
+            <state line="21" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="0.7191781">
               <folding />
             </state>
           </provider>
@@ -603,7 +601,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/stock_vendor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="67" selection-end="67" vertical-scroll-proportion="0.1369863">
+        <state line="21" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="0.7191781">
           <folding />
         </state>
       </provider>

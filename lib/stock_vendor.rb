@@ -19,9 +19,6 @@ class StockVendor
                :count => 5,},
      }
   end
-  def stock
-    {"1" => 5}
-  end
 
   def has_item?(id)
     @stocks[id][:count] > 0
