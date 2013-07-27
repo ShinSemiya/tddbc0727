@@ -7,8 +7,9 @@ class VendingMachine
     @amount = 0
   end
 
-  def insert(coin)
+  def accept(coin)
     @amount += coin
+    0
   end
 
   def print
@@ -16,6 +17,8 @@ class VendingMachine
   end
 
   def refund
-
+    change = @amount
+    @amount = 0
+    change
   end
 end

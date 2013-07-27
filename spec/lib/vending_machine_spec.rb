@@ -5,20 +5,33 @@ describe VendingMachine do
     context 'accept 100 after 50' do
       it 'works' do
         vending_machine = VendingMachine.new
-        vending_machine.insert(100)
+        vending_machine.accept(100)
         vending_machine.amount.should == 100
-        vending_machine.insert(50)
+        vending_machine.accept(50)
         vending_machine.amount.should == 150
       end
     end
   end
 
-  describe "#insert" do
-    context "insert coin ¥100" do
+  describe "#accept" do
+    context "accept coin ¥100" do
+      it "not rejected" do
+        vending_machine = VendingMachine.new
+        vending_machine.accept(100).should == 0
+      end
+
       it "it works" do
         vending_machine = VendingMachine.new
-        vending_machine.insert(100)
+        vending_machine.accept(100)
         vending_machine.amount.should == 100
+      end
+    end
+    context "accept coin ¥10000" do
+      let! (:accept_coin){ 10000 }
+
+      it "reject" do
+        vending_machine = VendingMachine.new
+        vending_machine.accept(accept_coin).should == accept_coin
       end
     end
   end
@@ -27,28 +40,28 @@ describe VendingMachine do
     context "insert coin ¥100" do
       it "print amount " do
         vending_machine = VendingMachine.new
-        vending_machine.insert(100)
+        vending_machine.accept(100)
         vending_machine.print.should == 100
       end
     end
   end
 
   describe '#refund' do
-    before do
+    let! (:vending_machine) do
       vending_machine = VendingMachine.new
-      vending_machine.insert(100)
+      vending_machine.accept(100)
+      vending_machine
     end
 
-    it 'call once, return 100'
+    it 'call once, return 100' do
+      vending_machine.refund.should == 100
+    end
 
-    context 'call once' do
+    context 'after call once' do
       it 'clear amount' do
         vending_machine.refund
-
+        vending_machine.refund.should == 0
       end
     end
-
-
-
   end
 end
