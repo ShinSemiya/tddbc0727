@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17886a12-8746-4326-9c47-8405767a493a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/stock_vendor.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/stock_vendor.rb" afterPath="$PROJECT_DIR$/lib/stock_vendor.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/lib/stock_vendor_spec.rb" afterPath="$PROJECT_DIR$/spec/lib/stock_vendor_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ruby_rspec.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,8 +12,8 @@
     <file path="/vending_machine.rb" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374907414895" ignored="false" />
     <file path="/*.regexp" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374908562222" ignored="false" />
     <file path="/coin_vendor.rb" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374908658700" ignored="false" />
-    <file path="/stock_vendor_spec.rb" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374909036859" ignored="false" />
-    <file path="/stock_vendor.rb" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374909432363" ignored="false" />
+    <file path="/stock_vendor_spec.rb" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374910236378" ignored="false" />
+    <file path="/stock_vendor.rb" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374910208929" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <file leaf-file-name="stock_vendor.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/stock_vendor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="23" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+            <state line="11" column="18" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,7 +72,7 @@
       <file leaf-file-name="stock_vendor_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/lib/stock_vendor_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="230" selection-end="230" vertical-scroll-proportion="0.2023988">
+            <state line="4" column="23" selection-start="96" selection-end="96" vertical-scroll-proportion="0.089955024">
               <folding />
             </state>
           </provider>
@@ -596,14 +595,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/stock_vendor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+        <state line="11" column="18" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/lib/stock_vendor_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="230" selection-end="230" vertical-scroll-proportion="0.2023988">
+        <state line="4" column="23" selection-start="96" selection-end="96" vertical-scroll-proportion="0.089955024">
           <folding />
         </state>
       </provider>

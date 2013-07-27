@@ -2,13 +2,14 @@
 require 'spec_helper'
 
 describe StockVendor do
-  describe "#juice" do
-    it "show juice" do
+  describe "#initialize" do
+    it "show cola" do
       stock_vendor = StockVendor.new
-      juice        = stock_vendor.juice(1)
-
-      juice[:price].should == 120
-      juice[:name].should  == "コーラ"
+      stocks        = stock_vendor.stocks
+      cola = stocks["コーラ"]
+      cola[:price].should == 120
+      cola[:name].should  == "コーラ"
+      cola[:count].should == 5
     end
   end
 end

@@ -1,13 +1,18 @@
 # -*- encoding: utf-8 -*-
 
 class StockVendor
-  def juice(id)
-    item["1"]
+
+  def initialize
+    @stocks = stocks
   end
 
-  def item
-     {"1"=> {:price => 120,
-            :name  => "コーラ",},}
+  def stocks
+     {"コーラ"=> {:price => 120,
+            :name  => "コーラ",
+            :count => 5,},}
+  end
+  def stock
+    {"1" => 5}
   end
 end
 
