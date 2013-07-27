@@ -32,4 +32,23 @@ describe VendingMachine do
       end
     end
   end
+
+  describe '#refund' do
+    before do
+      vending_machine = VendingMachine.new
+      vending_machine.insert(100)
+    end
+
+    it 'call once, return 100'
+
+    context 'call once' do
+      it 'clear amount' do
+        vending_machine.refund
+
+      end
+    end
+
+
+
+  end
 end
