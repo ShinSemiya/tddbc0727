@@ -10,4 +10,8 @@ class VendingMachine
   def accept(coin)
     @amount += coin
   end
+
+  def print
+    @amount
+  end
 end
