@@ -8,8 +8,12 @@ class VendingMachine
   end
 
   def accept(coin)
-    @amount += coin
-    0
+    if acceptable?(coin)
+      @amount += coin
+      0
+    else
+      coin
+    end
   end
 
   def print
@@ -20,5 +24,9 @@ class VendingMachine
     change = @amount
     @amount = 0
     change
+  end
+
+  def acceptable?(coin)
+    [10, 50, 100, 500, 1000].include?(coin)
   end
 end

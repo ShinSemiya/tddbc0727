@@ -64,4 +64,20 @@ describe VendingMachine do
       end
     end
   end
+
+  describe '#acceptable?' do
+    context 'ok coin' do
+      it 'returns true' do
+        vending_machine = VendingMachine.new
+        vending_machine.acceptable?(100).should be_true
+      end
+    end
+
+    context 'ng coin ' do
+      it 'returns false' do
+        vending_machine = VendingMachine.new
+        vending_machine.acceptable?(10000).should be_false
+      end
+    end
+  end
 end
