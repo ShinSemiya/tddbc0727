@@ -35,7 +35,6 @@ class CoinVendor
       @amount -= item[:price]
       @sales += item[:price]
       return item[:name]
-
     end
   end
 
@@ -49,4 +48,15 @@ class CoinVendor
     [10, 50, 100, 500, 1000].include?(coin)
   end
 
+  def find_stocks
+    selectable_item = []
+    stock_vendor = StockVendor.new
+    stock_vendor.stocks.map{|item|
+      if item[:count] > 0 &&
+         item[:price] > @amount
+        selectable_item << item[:name]
+      end
+    }
+    selectable_item
+  end
 end

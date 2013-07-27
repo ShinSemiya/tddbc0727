@@ -106,4 +106,13 @@ describe CoinVendor do
       coin_vendor.refund.should == 380
     end
   end
+
+  describe "#find_stocks" do
+    it "show stocks" do
+      coin_vendor = CoinVendor.new
+      coin_vendor.accept(150)
+      showed_stocks = coin_vendor.find_stocks
+      showed_stocks.should == ["コーラ", "水"]
+    end
+  end
 end

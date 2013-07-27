@@ -5,8 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/coin_vendor.rb" afterPath="$PROJECT_DIR$/lib/coin_vendor.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/lib/coin_vendor_spec.rb" afterPath="$PROJECT_DIR$/spec/lib/coin_vendor_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/stock_vendor.rb" afterPath="$PROJECT_DIR$/lib/stock_vendor.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/lib/stock_vendor_spec.rb" afterPath="$PROJECT_DIR$/spec/lib/stock_vendor_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ruby_rspec.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,10 +12,10 @@
     <file path="/vending_machine_spec.rb" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374907320375" ignored="false" />
     <file path="/vending_machine.rb" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374907414895" ignored="false" />
     <file path="/*.regexp" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374911391319" ignored="false" />
-    <file path="/coin_vendor.rb" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374911941727" ignored="false" />
+    <file path="/coin_vendor.rb" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374913260929" ignored="false" />
     <file path="/stock_vendor_spec.rb" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374911539904" ignored="false" />
-    <file path="/stock_vendor.rb" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374911740970" ignored="false" />
-    <file path="/coin_vendor_spec.rb" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374912067111" ignored="false" />
+    <file path="/stock_vendor.rb" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374913555958" ignored="false" />
+    <file path="/coin_vendor_spec.rb" changelist="17886a12-8746-4326-9c47-8405767a493a" time="1374913479349" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coin_vendor_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="coin_vendor_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/lib/coin_vendor_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="4" selection-start="2396" selection-end="2396" vertical-scroll-proportion="0.9315069">
+            <state line="113" column="12" selection-start="2523" selection-end="2523" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -58,16 +56,16 @@
       <file leaf-file-name="coin_vendor.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/coin_vendor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="13" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+            <state line="54" column="18" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stock_vendor.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="stock_vendor.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/stock_vendor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+            <state line="4" column="2" selection-start="67" selection-end="67" vertical-scroll-proportion="0.1369863">
               <folding />
             </state>
           </provider>
@@ -122,9 +120,9 @@
         <option value="$PROJECT_DIR$/lib/vending_machine.rb" />
         <option value="$PROJECT_DIR$/spec/lib/vending_machine_spec.rb" />
         <option value="$PROJECT_DIR$/spec/lib/stock_vendor_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/stock_vendor.rb" />
-        <option value="$PROJECT_DIR$/lib/coin_vendor.rb" />
         <option value="$PROJECT_DIR$/spec/lib/coin_vendor_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/coin_vendor.rb" />
+        <option value="$PROJECT_DIR$/lib/stock_vendor.rb" />
       </list>
     </option>
   </component>
@@ -589,23 +587,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/stock_vendor.rb">
+    <entry file="file://$PROJECT_DIR$/spec/lib/coin_vendor_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+        <state line="113" column="12" selection-start="2523" selection-end="2523" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/coin_vendor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="13" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+        <state line="54" column="18" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/lib/coin_vendor_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/stock_vendor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="4" selection-start="2396" selection-end="2396" vertical-scroll-proportion="0.9315069">
+        <state line="4" column="2" selection-start="67" selection-end="67" vertical-scroll-proportion="0.1369863">
           <folding />
         </state>
       </provider>

@@ -1,6 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 class StockVendor
+  attr_reader :stocks
 
   def initialize
     @stocks = stocks
@@ -9,7 +10,14 @@ class StockVendor
   def stocks
      {"コーラ"=> {:price => 120,
             :name  => "コーラ",
-            :count => 5,},}
+            :count => 5,},
+      "水"=> {:price => 100,
+               :name  => "水",
+               :count => 5,},
+      "レッドブル"=> {:price => "200",
+               :name  => "レッドブル",
+               :count => 5,},
+     }
   end
   def stock
     {"1" => 5}
