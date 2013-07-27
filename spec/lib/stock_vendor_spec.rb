@@ -17,11 +17,21 @@ describe StockVendor do
     context 'cola' do
       it 'return true' do
         stock_vendor = StockVendor.new
-        stock_vendor.has_item('コーラ').should be_true
-
+        stock_vendor.has_item?('コーラ').should be_true
       end
     end
-
   end
+
+  describe '#deliver' do
+    context 'cola' do
+      it 'return cola' do
+        stock_vendor = StockVendor.new
+        cola = stock_vendor.deliver('コーラ')
+        cola[:price].should == 120
+        cola[:name].should  == "コーラ"
+      end
+    end
+  end
+
 end
 

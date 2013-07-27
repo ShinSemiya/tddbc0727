@@ -19,12 +19,13 @@ class StockVendor
     @stocks[id][:count] > 0
   end
 
-  def has_amount?(id)
-    price(id) < @amount
-  end
-
   def price(id)
     @stocks[id][:price]
+  end
+
+  def deliver(id)
+    @stocks[id][:count] -= 1
+    @stocks[id]
   end
 end
 

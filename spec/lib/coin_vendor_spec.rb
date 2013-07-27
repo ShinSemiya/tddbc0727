@@ -89,4 +89,21 @@ describe CoinVendor do
       coin_vendor.has_amount?('コーラ').should be_true
     end
   end
+
+  describe '#purchase' do
+    let! (:coin_vendor){
+      coin_vendor = CoinVendor.new
+      coin_vendor.accept(500)
+      coin_vendor
+    }
+
+    it 'can purchase item' do
+      coin_vendor.purchase('コーラ').should == 'コーラ'
+    end
+
+    it "return change" do
+      coin_vendor.purchase('コーラ')
+      coin_vendor.refund.should == 380
+    end
+  end
 end
